@@ -282,3 +282,26 @@ input, textarea {
     padding: 10px;
     background-color: var(--neutral);
 }
+
+@media (max-width: 1200px) {
+    .light_container {
+        visibility: hidden;
+    }
+    #port_img {
+        visibility: hidden;
+    }
+    article {
+        margin: auto 10px;
+    }
+    .standard_sect {
+        height: auto;
+        padding: 10px;
+    }
+    #skills {
+        margin: auto 8px;
+    }
+    .contacts li{
+        padding: 20px 0px;
+        margin: 0 20px;
+    }
+}
